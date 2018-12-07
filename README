@@ -7,9 +7,9 @@ Proceed with caution, since most code written will:
 1. Be of questionable elegance;
 2. Usually perform poorly at scale (O(n**2), etc);
 
-As you can see, my sole focus right now is to get the right answers ;p.
+As you can see, my sole focus right now is to get the right answers ;p. Ah, also I will upload each day's puzzle the day after solving it :)
 
-That being said, there is some documentation that might be useful:
+That being said, there is some documentation that might be useful.
 
 ## Documentation that might be useful if you decide to use this repo or read it
 
