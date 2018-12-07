@@ -1,5 +1,4 @@
-require_relative '../lib/tester.rb'
-require_relative './reactor.rb'
+require_relative '../../lib/tester.rb'
 
 def test_question_1
   puts Tester.test_clause(expected: 'PENDING',

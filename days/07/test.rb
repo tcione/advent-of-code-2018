@@ -1,9 +1,12 @@
-require_relative '../lib/tester.rb'
-require_relative './reactor.rb'
+require_relative '../../lib/tester.rb'
+require_relative './instructions_parser.rb'
 
 def test_question_1
-  puts Tester.test_clause(expected: 'PENDING',
-                          result: 0)
+  result = InstructionsParser
+           .ordered_instructions(data_source: './test-input.txt')
+
+  puts Tester.test_clause(expected: 'CABDFE',
+                          result: result)
 end
 
 def test_question_2
