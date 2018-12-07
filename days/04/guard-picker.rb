@@ -1,4 +1,4 @@
-require_relative '../lib/input-to-array.rb'
+require_relative '../../lib/input-to-array.rb'
 
 # Class to discover which guard is most likelly to
 # be sleeping at a specific minute

@@ -1,4 +1,4 @@
-require_relative '../lib/tester.rb'
+require_relative '../../lib/tester.rb'
 require_relative './coords_mapper.rb'
 
 def test_question_1

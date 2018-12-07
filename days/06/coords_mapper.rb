@@ -1,4 +1,4 @@
-require_relative '../lib/input-to-array.rb'
+require_relative '../../lib/input-to-array.rb'
 
 # Helpers for CoordsMapper
 module Utilities

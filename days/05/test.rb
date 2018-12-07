@@ -1,4 +1,4 @@
-require_relative '../lib/tester.rb'
+require_relative '../../lib/tester.rb'
 require_relative './reactor.rb'
 
 def test_question_1

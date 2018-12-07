@@ -1,5 +1,5 @@
 require_relative './guard-picker.rb'
-require_relative '../lib/tester.rb'
+require_relative '../../lib/tester.rb'
 
 def test_strategy_most_minutes_asleep
   picker = GuardPicker.new(data_source: './test-input.txt')
