@@ -1,5 +1,10 @@
+require_relative './instructions_parser.rb'
+
 def question_1
-  p "question1: PENDING"
+  result = InstructionsParser
+           .ordered_instructions(data_source: './input.txt')
+
+  p "question1: #{result}"
 end
 
 def question_2
