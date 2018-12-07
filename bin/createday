@@ -1,0 +1,24 @@
+#!/bin/sh
+
+TEMPLATE_PATH="${PWD}/template/"
+DAY_PATH="${PWD}/days/$1"
+
+if [ -z "$1" ]
+then
+  echo "====="
+  echo "Creates a folder for corresponding day based on a template"
+  echo "Usage: ./bin/createday 05"
+  echo "====="
+  exit 1
+fi
+
+if [ -d "$DAY_PATH" ]
+then
+  echo "====="
+  echo "A directory for day $1 already exists"
+  echo "====="
+  exit 1
+fi
+
+(cp -r $TEMPLATE_PATH $DAY_PATH)
+echo "Directory created at $DAY_PATH"

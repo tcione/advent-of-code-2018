@@ -7,11 +7,21 @@ Proceed with caution, since most code written will:
 1. Be of questionable elegance;
 2. Usually perform poorly at scale (O(n**2), etc);
 
-As you can see, my sole focus right now is to get the right answers ;p. Ah, also I will upload each day's puzzle the day after solving it :)
+As you can see, my sole focus right now is to get the right answers ;p. (and also share this so people can have access to it :))
 
 That being said, there is some documentation that might be useful.
 
 ## Documentation that might be useful if you decide to use this repo or read it
+
+### CLI helper
+
+From this project's root run:
+
+- `./bin/run DAY_NUMBER` => Runs code to solve the day's puzzle
+- `./bin/test DAY_NUMBER` => Runs tests related to the day's puzzle
+- `./bin/createday DAY_NUMBER` => Creates a new day from ./template
+
+### About the puzzles
 
 - There is a template folder inside this project's root path. You can copy it to create a new day. Example: `cp -r template/ days/08`;
 - Every template contains:
@@ -27,6 +37,6 @@ That being said, there is some documentation that might be useful.
 
 ## Things I plan to do eventually:
 
-[ ] Brief overview for each day;
-[ ] Review this text, the English here is passable, at best;
+- [ ] Brief overview for each day;
+- [ ] Review this text, the English here is passable, at best;
 

@@ -1,0 +1,24 @@
+#!/bin/sh
+
+BASE_PATH="${PWD}/days/$1"
+CODE_PATH="$BASE_PATH/code.rb"
+
+if [ -z "$1" ]
+then
+  echo "====="
+  echo "Runs code for a specific day between 01 and 25 (0 must be provided for numbers bellow 10)"
+  echo "Usage: ./bin/run 05"
+  echo "====="
+  exit 1
+fi
+
+if [ ! -f "$CODE_PATH" ]
+then
+  echo "====="
+  echo "A file for day $1 has not been created yet"
+  echo "To create it use this command: ./bin/createday {DAY_NUMBER}"
+  echo "====="
+  exit 1
+fi
+
+(cd $BASE_PATH && ruby $CODE_PATH)
