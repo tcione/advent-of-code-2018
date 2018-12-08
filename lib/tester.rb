@@ -4,6 +4,7 @@ module Tester
 
   def test_clause(expected:, result:)
     called_by = caller_locations(1, 1)[0].label
+    return "#{called_by} test not written yet" if expected == 'PENDING'
     return "#{called_by} PASSED" if expected == result
 
     <<-RS
