@@ -1,3 +1,5 @@
+:)
+
 # My solutions for the Advent of Code 2018
 
 Hi, welcome to the solutions I have writter for 2018's advent days. Since I am doing all this light heartedly (and so I may come across problems I do not usually see in my routine).
